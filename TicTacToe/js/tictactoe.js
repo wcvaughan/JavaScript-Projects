@@ -36,7 +36,7 @@ function placeXOrO(squareNumber) {
             activePlayer = 'X';
         }
         //This function plays placement sound.
-        audio('media/618900__zj-davis__catmeow-small.wav');
+        audio('media/51702__bristolstories__ping.mp3');
         //This condition checks to see if it is the computers turn.
         if (activePlayer === 'O') {
             //This function disables clicking for computers turn.
